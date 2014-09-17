@@ -8,11 +8,11 @@ GEM
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
-    redis (3.0.7)
-    redis-namespace (1.4.1)
-      redis (~> 3.0.4)
-    sidekiq (3.0.2)
-      celluloid (>= 0.15.2)
+    redis (3.1.0)
+    redis-namespace (1.5.1)
+      redis (~> 3.0, >= 3.0.4)
+    sidekiq (3.2.5)
+      celluloid (= 0.15.2)
       connection_pool (>= 2.0.0)
       json
       redis (>= 3.0.6)
@@ -28,5 +28,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  sidekiq (~> 3.0.2)
+  sidekiq (~> 3.2.0)
   sinatra
