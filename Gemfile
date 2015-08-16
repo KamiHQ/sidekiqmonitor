@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.0'
+ruby '2.2.2'
 
 gem "sinatra"
-gem "sidekiq", "~> 3.2.0"
+gem "sidekiq"
